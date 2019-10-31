@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ecc4b107840d6b429a901b63fe1b42c, type: 3}
+  m_Name: Mushroom
+  m_EditorClassIdentifier: 
+  type: Mushroom
+  enemies: {fileID: 922089772757254775, guid: 706c195963f04674fbcf2b91f7676cb1, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  scorePoints: 5
+  damageReceiver: {fileID: 2378882476823871891, guid: 706c195963f04674fbcf2b91f7676cb1,
+    type: 3}
+  hitPoints: {fileID: 11400000, guid: 6eb28075b56852b4498cccefbe3d81c4, type: 2}
+  baseImplementers:
+  - {fileID: 7404443325288290966, guid: 706c195963f04674fbcf2b91f7676cb1, type: 3}
